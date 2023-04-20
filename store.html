@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Online Store</title>
+        <style>
+            body{
+                margin: 5px;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+            }
+            .header{
+                width: 100%;
+                height: 50px; 
+                background-color: rgb(94, 8, 8);
+                text-align: center;
+                margin-bottom: 50px;
+            }      
+            .intro-text{
+                color: white;
+                font-size: 32px;
+                padding-top: 5px;
+
+
+            }          
+    
+        .product-image{
+            width: 180px;
+            height: 230px; 
+            text-align: center;
+            border-radius: 5px;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 8px 12px 0 rgba(19, 49, 3, 0.2), 0 16px 32px 0 rgba(27, 9, 121, 0.19);
+        }
+        .product-image img{
+            width: 180px;
+            height: 160px;
+            border-radius: 5px;
+        }
+            li{
+                list-style: none;
+                margin: 30px;
+            }
+            ul{
+                display: inline-flex;
+            }
+        .product-name{
+            font-weight: bold;
+            text-transform:uppercase;
+            text-align: center;
+            line-height:5px;
+         }
+         .product-btn{
+            width: 160px;
+            margin: 2px;
+            background-color: rgb(94, 8, 8);
+            padding: 7px;
+            display: block;
+            text-decoration: none;
+            color:white;
+            text-align: center;
+            border-radius: 5px;    
+         }
+        .product-btn:hover{
+            background-color: rgb(96, 139, 4);
+        }
+         </style>
+        <link rel="stylesheet" href="style.css">
+    </head>
+        <body>
+        <nav class="header">
+            <h3 class="intro-text">Welcome to our Store</h3>
+           <marquee> 
+            <p style="font-style: italic; color: rgb(55, 255, 0);">Shop as you want</p>
+           </marquee> 
+        </nav>
+
+            <ul> 
+                <li>
+                    <div class="product-image">
+                        <img src="./images/fish.jpg" width="100"/>  
+                        <p class="product-name">Fish</p> 
+                        <a href="buy.html" class="product-btn">Buy</a>
+                    </div>
+                    <table>
+                        <tbody>
+                           <br>
+                            <tr>
+                                <th class="cal">
+                                Calories
+                            </th>
+                                <td>120kcal</td>
+                                <td>kcl</td>
+                            </tr>
+                            <tr>
+                                <th>
+                                Proteins
+                            </th>
+                                <td>120kcal</td>
+                                <td>cla</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </li>
+                <li>
+                    <div class="product-image">
+                        <img src="./images/bag.png"width="100"/>  
+                        <p class="product-name">Bag</p> 
+                        <a href="buy.html" class="product-btn">Buy</a>
+                    </div>
+                   <table>
+                
+                        <tbody>
+                            <br>
+                            <tr>
+                                <th class="cal">
+                                Calories
+                            </th>
+                                <td>120kcal</td>
+                                <td>kcl</td>
+                            </tr>
+                            <tr>
+                                <th>
+                                Proteins
+                            </th>
+                                <td>120kcal</td>
+                                <td>cla</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </li>
+                <li>
+                    <div class="product-image">
+                        <img src="./images/shoe.jpg"width="100"/>  
+                        <p class="product-name">Shoe</p> 
+                        <a href="buy.html" class="product-btn">Buy</a>
+                    </div>
+                   <table>
+                         <tbody>
+                            <br>
+                            <tr>
+                                <th class="cal">
+                                Calories
+                            </th>
+                                <td>120kcal</td>
+                                <td>kcl</td>
+                            </tr>
+                            <tr>
+                                <th>
+                                Proteins
+                            </th>
+                                <td>120kcal</td>
+                                <td>cla</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </li>
+            </ul>
+            <div style="text-align: center";> 
+                <a href="index.html">Go back to Home</a>
+            </div>
+        </body>
+    </html>
